@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Header from './components/header';
 import Sidebar from './components/sidebar';
+import Chat from './components/chat';
 import styled from 'styled-components';
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
           <Sidebar/>
           <Switch>
             <Route path="/" exact>
-              {/* Chat */}
+              <Chat/>
             </Route>
           </Switch>
         </AppBody>
